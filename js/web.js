@@ -39,7 +39,7 @@
         a.classList.remove('is-soon');
         a.removeAttribute('aria-disabled');
         if (/\.(zip|exe)$/i.test(info.archivo)) a.setAttribute('download', ''); else a.removeAttribute('download');
-        a.textContent = k === 'exe' ? 'Descargar para Windows' : 'Descargar .zip';
+        a.textContent = k === 'exe' ? 'Descargar .exe' : 'Descargar .zip';
         if (meta) meta.textContent = [window.__ver, info.peso].filter(Boolean).join(' · ');
       } else {
         a.removeAttribute('href');

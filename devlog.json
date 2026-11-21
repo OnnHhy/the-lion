@@ -1,18 +1,32 @@
 {
-  "actual": "v0.3.1",
+  "actual": "v0.4.0",
   "descargas": {
     "exe": {
-      "archivo": "downloads/TheLion-v0.3.1-win64.zip",
+      "archivo": "downloads/TheLion-v0.4.0-win64.exe",
       "disponible": true,
-      "peso": "11,5 MB"
+      "peso": "16,9 MB"
     },
     "zip": {
-      "archivo": "downloads/THE-LION-v0.3.1.zip",
+      "archivo": "downloads/TheLion-v0.4.0-win64.zip",
       "disponible": true,
-      "peso": "0,3 MB"
+      "peso": "11,5 MB"
     }
   },
   "versiones": [
+    {
+      "version": "v0.4.0",
+      "fecha": "21 nov 2026",
+      "titulo": "El pueblo se ve de verdad",
+      "resumen": "El salto gráfico más grande hasta ahora… y el juego corre el doble de rápido en PCs humildes.",
+      "cambios": [
+        "Texturas reales en todo el pueblo: tablas viejas, revoque, barro, tierra, techos, piedra, paja y corteza. Con relieve y brillo húmedo en calidad MEDIA y ALTA.",
+        "Personas en 3D con esqueleto y animación de verdad.",
+        "El león, rehecho: melena con mechones, hocico, bigotes y párpados oscuros. Ahora da más miedo verlo de cerca.",
+        "Rifle nuevo: cañón octagonal, madera con veta y manos con dedos que se mueven.",
+        "Cerca del doble de rápido en calidad BAJA en una laptop con Intel HD 520: el juego solo dibuja lo que tienes enfrente y lo que la niebla no tapa.",
+        "Ahora también hay versión para Windows: un .exe que se abre sin instalar nada."
+      ]
+    },
     {
       "version": "v0.3.1",
       "fecha": "",
@@ -117,6 +131,6 @@
     "Más pistas y finales completos.",
     "Guardar la partida.",
     "Voces y mejor arte.",
-    "Más arte en 3D, sin dejar de correr en PCs humildes."
+    "Más modelos 3D (muebles, árboles)."
   ]
 }
