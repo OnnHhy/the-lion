@@ -42,7 +42,13 @@ HTML, CSS y JS sin frameworks y sin compilar. Se sube tal cual a cualquier hosti
 **Sin spoilers en el devlog:** no reveles el misterio (el canon está en `the-lion/DISENO.md`).
 Describe lo que el jugador va a sentir, no lo que va a descubrir.
 
-## Publicarla gratis (elige una)
+## Publicada en GitHub Pages
+- Web: https://onnhhy.github.io/the-lion/
+- Repositorio: https://github.com/OnnHhy/the-lion (esta carpeta es ese repositorio).
+- Para actualizar después de cambiar `devlog.json` o `downloads/`, en PowerShell dentro de esta carpeta:
+  `git add -A; git commit -m "v0.4.0"; git push` → en 1–2 minutos se ve en la web.
+
+## Otras opciones de hosting gratis
 - **Netlify Drop** (lo más fácil): entrar a app.netlify.com/drop y arrastrar la carpeta `the-lion-web`. Da un enlace tipo `algo.netlify.app`.
   Para actualizar: arrastrar la carpeta otra vez en el mismo sitio.
 - **GitHub Pages**: crear un repositorio, subir el contenido de `the-lion-web/`, y en *Settings → Pages* elegir la rama `main`.
