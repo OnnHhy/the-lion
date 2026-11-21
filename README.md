@@ -37,7 +37,8 @@ HTML, CSS y JS sin frameworks y sin compilar. Se sube tal cual a cualquier hosti
      ```
 3. Cuida las comas: entre versiones va coma; después de la última, no. Si la web dice «No se pudo cargar el devlog», falta o sobra una coma
    (pega el archivo en https://jsonlint.com para encontrarla).
-4. Vuelve a subir la carpeta (o solo `devlog.json` y `downloads/`).
+4. Si cambiaste `css/estilo.css` o `js/web.js`, sube el número en `?v=0.4.0` dentro de `index.html` (así nadie ve la versión vieja guardada).
+5. Vuelve a subir la carpeta (o solo `devlog.json` y `downloads/`).
 
 **Sin spoilers en el devlog:** no reveles el misterio (el canon está en `the-lion/DISENO.md`).
 Describe lo que el jugador va a sentir, no lo que va a descubrir.
