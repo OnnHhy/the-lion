@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE LION — Lo que esconde el león</title>
+<meta name="description" content="Juego de terror e investigación en primera persona. Una chica muere y todos culpan al león. Investiga, escóndete y decide a qué creerle. Gratis, en desarrollo, para PC.">
+<meta name="theme-color" content="#000000">
+<meta property="og:type" content="website">
+<meta property="og:title" content="THE LION — Lo que esconde el león">
+<meta property="og:description" content="Todos culpan al león. Tú decides a qué creerle. Terror e investigación en primera persona, gratis para PC.">
+<meta property="og:image" content="img/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.ico" sizes="any">
+<link rel="icon" type="image/png" href="img/favicon-64.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="stylesheet" href="css/estilo.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="nav-logo" href="#inicio" aria-label="THE LION, inicio">THE LION</a>
+  <nav class="nav-links" aria-label="Secciones">
+    <a href="#historia">Historia</a>
+    <a href="#juego">El juego</a>
+    <a href="#devlog">Devlog</a>
+    <a href="#requisitos">Requisitos</a>
+    <a class="nav-cta" href="#descargar">Descargar</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ============ PORTADA ============ -->
+<section class="hero" id="inicio">
+  <picture class="hero-art">
+    <source media="(max-width: 760px)" srcset="img/portada-960.webp 960w, img/portada-1920.webp 1920w" sizes="100vw" type="image/webp">
+    <source srcset="img/banner-1200.webp 1200w, img/banner-2400.webp 2400w" sizes="100vw" type="image/webp">
+    <img src="img/banner-1200.jpg" alt="Un león enorme y un cachorro frente a frente en la niebla de un pantano" fetchpriority="high">
+  </picture>
+  <div class="fog" aria-hidden="true"></div>
+  <div class="hero-text">
+    <p class="kicker">Terror · Investigación · Primera persona</p>
+    <h1 class="logo">
+      <span>THE LION</span>
+      <span class="claw" aria-hidden="true"><i></i><i></i><i></i></span>
+    </h1>
+    <p class="subtitle">Lo que esconde el león</p>
+    <p class="tagline">Todos culpan al león.<br>Tú decides a qué creerle.</p>
+    <div class="hero-actions">
+      <a class="btn btn-main" href="#descargar">Descargar gratis <small data-ver>v0.3.1</small></a>
+      <a class="btn btn-ghost" href="#devlog">Ver novedades</a>
+    </div>
+    <p class="hero-note">Beta gratuita para PC con Windows · Corre en laptops humildes</p>
+  </div>
+  <a class="scroll-hint" href="#historia" aria-label="Bajar a la historia"></a>
+</section>
+
+<!-- ============ HISTORIA ============ -->
+<section class="story" id="historia">
+  <div class="wrap story-grid">
+    <div class="story-text reveal">
+      <p class="label">La historia</p>
+      <h2>Un pueblo junto al pantano.<br>Una chica muerta.<br>Un culpable que todos señalan.</h2>
+      <p>Hace años que la gente abandonó el pueblo por miedo. Dicen que de noche baja un león, que nadie lo ve venir, que no deja nada.</p>
+      <p>Ahora una chica apareció muerta, y nadie duda de quién fue. Tú llegas para ver con tus propios ojos. Casas vacías, puertas que golpean con el viento, huellas en el barro… y cosas que no encajan con lo que todos repiten.</p>
+      <p class="quote">Nada es lo que parece.</p>
+      <p>No hay menús de decisiones ni un camino correcto. Lo que encuentres, y el orden en que lo encuentres, cambia lo que piensas. Al final, el juego te muestra <em>lo que tú creíste</em>.</p>
+    </div>
+    <figure class="story-art reveal">
+      <img src="img/portada-960.webp" srcset="img/portada-960.webp 960w, img/portada-1920.webp 1920w" sizes="(max-width: 900px) 100vw, 46vw" alt="Un león oscuro con cicatrices se inclina hacia un cachorro dorado" loading="lazy" width="960" height="439">
+      <figcaption>¿A qué le crees: a lo que dicen, a lo que ves o a lo que descubres?</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============ EL JUEGO ============ -->
+<section class="features" id="juego">
+  <div class="wrap">
+    <p class="label reveal">El juego</p>
+    <h2 class="reveal">Investiga. Escóndete. No respires.</h2>
+    <div class="cards">
+      <article class="card reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+        <h3>Terror de investigación en primera persona</h3>
+        <p>Recorre el pueblo con tu linterna, examina objetos y anota todo en tu libreta. Cada pista te acerca a la verdad… y al león.</p>
+      </article>
+      <article class="card reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="2.5" width="14" height="19" rx="1"/><path d="M12 2.5v19M10 12h.01M14 12h.01"/></svg>
+        <h3>Escóndete y aguanta la respiración</h3>
+        <p>Métete en un armario o debajo de la cama y tápate la boca. Si respiras fuerte, te oye. Si aguantas demasiado, te ahogas. Y cuando se vaya, sal rápido.</p>
+      </article>
+      <article class="card reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20c2-6 3-9 3-13M10 20c1-6 2-10 2-15M16 20c0-5 1-9 3-12"/></svg>
+        <h3>Un león que te caza</h3>
+        <p>Escucha tus pasos, ve tu linterna y sigue tu rastro. Tumba puertas. Si te alcanza, forcejea o no la cuentas. Tienes un rifle viejo y casi nada de balas.</p>
+      </article>
+      <article class="card reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h12l4 4v12H4z"/><path d="M8 10h8M8 14h8M8 18h5"/></svg>
+        <h3>Tus propias conclusiones</h3>
+        <p>Nadie te dice qué pensar. El orden en que descubres las cosas cambia lo que crees, y lo que crees decide el final.</p>
+      </article>
+      <article class="card reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="3.2"/><circle cx="16.5" cy="9" r="2.6"/><path d="M2.5 20c.5-4 2.8-6 5.5-6s5 2 5.5 6M13.5 14.5c.9-.7 1.9-1 3-1 2.4 0 4.2 1.8 4.5 5.5"/></svg>
+        <h3>Modo en línea para 2</h3>
+        <p>Uno crea la partida y pasa un código; el otro se une desde su PC. El león caza a los dos, y las pistas se comparten.</p>
+      </article>
+      <article class="card reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="12" rx="1.5"/><path d="M8 21h8M12 17v4"/></svg>
+        <h3>Liviano de verdad</h3>
+        <p>Hecho y probado en una laptop con gráfica integrada. Gráficos cuidados que no piden una PC gamer: baja la calidad con <kbd>G</kbd> y listo.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DESCARGAS ============ -->
+<section class="download" id="descargar">
+  <div class="wrap">
+    <p class="label reveal">Descargar</p>
+    <h2 class="reveal">Juega la beta <span data-ver>v0.3.1</span></h2>
+    <p class="lead reveal">Gratis. Sin cuentas, sin tiendas. Descarga, abre y entra al pueblo.</p>
+    <p class="pc-only">THE LION se juega en una <strong>PC con teclado y mouse</strong>. Guarda esta página y descárgalo desde tu computadora.</p>
+    <div class="dl-grid">
+      <div class="dl reveal" id="dl-exe">
+        <div class="dl-head"><span class="dl-tag">Recomendado</span><h3>Windows (.exe)</h3></div>
+        <p>Windows 10/11 de 64 bits. Descomprímelo y abre <code>TheLion.exe</code>. Si Windows muestra un aviso azul (SmartScreen): <em>Más información → Ejecutar de todas formas</em>.</p>
+        <a class="btn btn-main" href="downloads/TheLion-v0.3.1-win64.zip" data-dl="exe" download>Descargar para Windows</a>
+        <p class="dl-meta" data-meta="exe">v0.3.1 · 11,5 MB</p>
+      </div>
+      <div class="dl reveal" id="dl-zip">
+        <div class="dl-head"><span class="dl-tag dim">Alternativa</span><h3>Versión para navegador</h3></div>
+        <p>Si el .exe no te abre: descomprime y haz doble clic en <code>index.html</code>. Se juega en Chrome o Edge.</p>
+        <a class="btn btn-main" href="downloads/THE-LION-v0.3.1.zip" data-dl="zip" download>Descargar .zip</a>
+        <p class="dl-meta" data-meta="zip">v0.3.1 · 0,3 MB</p>
+      </div>
+    </div>
+    <p class="beta-note reveal">Es una beta: puede haber errores. Cada actualización sale aquí con sus notas en el <a href="#devlog">devlog</a>.</p>
+  </div>
+</section>
+
+<!-- ============ DEVLOG ============ -->
+<section class="devlog" id="devlog">
+  <div class="wrap narrow">
+    <p class="label reveal">Devlog</p>
+    <h2 class="reveal">Notas de cada versión</h2>
+    <div id="devlog-list" class="log" aria-live="polite">
+      <p class="log-msg">Cargando novedades…</p>
+    </div>
+    <div class="soon reveal" id="soon" hidden>
+      <h3>Lo que viene</h3>
+      <ul id="soon-list"></ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REQUISITOS Y CONTROLES ============ -->
+<section class="reqs" id="requisitos">
+  <div class="wrap">
+    <p class="label reveal">Requisitos</p>
+    <h2 class="reveal">Gráficos excelentes, pero livianos</h2>
+    <div class="req-grid">
+      <div class="req reveal">
+        <h3>Mínimo</h3>
+        <dl>
+          <dt>Sistema</dt><dd>Windows 10 u 11</dd>
+          <dt>Procesador</dt><dd>Intel Core i5 de 6.ª generación (laptop)</dd>
+          <dt>Gráficos</dt><dd>Intel HD 520 / HD 460 integrada, calidad <strong>BAJA</strong></dd>
+          <dt>Memoria</dt><dd>4 GB de RAM</dd>
+          <dt>Navegador</dt><dd>Chrome o Edge actualizado (solo la versión para navegador)</dd>
+        </dl>
+      </div>
+      <div class="req reveal">
+        <h3>Recomendado</h3>
+        <dl>
+          <dt>Sistema</dt><dd>Windows 10 u 11</dd>
+          <dt>Procesador</dt><dd>Intel Core i5 / Ryzen 5 o superior</dd>
+          <dt>Gráficos</dt><dd>Tarjeta gráfica dedicada, calidad <strong>ALTA</strong></dd>
+          <dt>Memoria</dt><dd>8 GB de RAM</dd>
+          <dt>Extra</dt><dd>Audífonos. En serio.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="controls reveal">
+      <h3>Controles</h3>
+      <ul class="keys">
+        <li><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><span>Moverte</span></li>
+        <li><kbd>Mouse</kbd><span>Mirar</span></li>
+        <li><kbd>Shift</kbd><span>Correr</span></li>
+        <li><kbd>C</kbd><span>Agacharte (haces menos ruido)</span></li>
+        <li><kbd>Espacio</kbd><span>Saltar · mantener para agarrarte de un borde</span></li>
+        <li><kbd>E</kbd><span>Examinar, tomar, abrir y cerrar puertas, esconderte</span></li>
+        <li><kbd>Espacio</kbd><span>Escondido: taparte la boca</span></li>
+        <li><kbd>Clic</kbd><span>Disparar · <kbd>Clic der.</kbd> apuntar</span></li>
+        <li><kbd>R</kbd><span>Recargar</span></li>
+        <li><kbd>F</kbd><span>Linterna (cuidado: te delata)</span></li>
+        <li><kbd>I</kbd><span>Inventario · <kbd>H</kbd> usar vendas</span></li>
+        <li><kbd>Tab</kbd><span>Libreta de pistas</span></li>
+        <li><kbd>G</kbd><span>Calidad gráfica · <kbd>F3</kbd> ver FPS</span></li>
+        <li><kbd>Q</kbd><span>En línea: marcar «¡aquí!» a tu compañero</span></li>
+      </ul>
+    </div>
+
+    <div class="online reveal">
+      <h3>Jugar en línea</h3>
+      <ol>
+        <li>Los dos necesitan internet y el juego en la misma versión.</li>
+        <li>En el menú, entren a <strong>Jugar en línea</strong>.</li>
+        <li>Uno elige <strong>Crear partida</strong> y le pasa el código a su amigo.</li>
+        <li>El otro escribe el código y elige <strong>Unirme</strong>.</li>
+        <li>Quien crea la partida es el anfitrión: en su PC vive el león, así que conviene que sea la PC más fuerte.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p class="foot-logo">THE LION</p>
+    <p>Lo que esconde el león · Juego independiente en desarrollo · <span data-ver>v0.3.1</span></p>
+    <p class="foot-small">Contiene violencia y escenas de miedo. Recomendado para mayores de 13 años.</p>
+  </div>
+</footer>
+
+<script src="js/web.js" defer></script>
+</body>
+</html>

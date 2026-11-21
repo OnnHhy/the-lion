@@ -1,0 +1,122 @@
+{
+  "actual": "v0.3.1",
+  "descargas": {
+    "exe": {
+      "archivo": "downloads/TheLion-v0.3.1-win64.zip",
+      "disponible": true,
+      "peso": "11,5 MB"
+    },
+    "zip": {
+      "archivo": "downloads/THE-LION-v0.3.1.zip",
+      "disponible": true,
+      "peso": "0,3 MB"
+    }
+  },
+  "versiones": [
+    {
+      "version": "v0.3.1",
+      "fecha": "",
+      "titulo": "Cada casa tiene una puerta",
+      "resumen": "Probamos el pueblo grande y arreglamos todo lo que nos asustó por las razones equivocadas.",
+      "cambios": [
+        "Los 19 edificios del pueblo ahora tienen puerta y se pueden recorrer por dentro: muebles, armarios, camas, objetos.",
+        "Armarios y camas solo funcionan desde adentro y de frente. Se acabó esconderse a través de la pared.",
+        "Nada se puede tomar a través de las paredes.",
+        "Sonidos nuevos: un búho, un perro lejos, ráfagas, postigos que golpean, cadenas, pasos en madera… y algo que ronronea demasiado cerca.",
+        "Ahora se le ve la cola cuando corre detrás de ti.",
+        "Arreglado: el cuadrado negro sobre el río y las casitas pegadas."
+      ]
+    },
+    {
+      "version": "v0.3.0",
+      "fecha": "",
+      "titulo": "El pueblo crece",
+      "resumen": "El mapa casi se duplica. Más calles para huir, más puertas detrás de las cuales esconderse.",
+      "cambios": [
+        "Mapa mucho más grande: calles traseras y tres calles que cruzan el pueblo.",
+        "Casas nuevas, una herrería y un viejo hotel. Algunas guardan cosas que alguien quiso esconder.",
+        "9 pistas en total.",
+        "El león ahora conoce las calles del pueblo y las usa para cortarte el paso.",
+        "Personas en 3D con movimiento real.",
+        "Intro nueva, mucho más dura.",
+        "Llegas en camioneta por el camino del pantano. Se queda ahí, con los faros prendidos."
+      ]
+    },
+    {
+      "version": "v0.2.0",
+      "fecha": "",
+      "titulo": "Ya no hay dónde correr",
+      "resumen": "El león deja de rendirse. Ahora te sigue el rastro.",
+      "cambios": [
+        "El león te persigue siempre. Si te pierde de vista, sigue tu rastro.",
+        "Para perderlo: entra a una casa, cierra la puerta y escóndete en el armario o DEBAJO DE LA CAMA aguantando la respiración.",
+        "Las puertas cerradas no lo detienen para siempre.",
+        "Si te alcanza, te tumba: forcejea rápido o no la cuentas.",
+        "La linterna te delata: con ella prendida te ve desde mucho más lejos.",
+        "Inventario: trapos, cinta, vendas y balas. Envuelve tus zapatos para caminar en silencio o tus brazos para aguantar mejor una mordida.",
+        "Rifle de palanca nuevo, postes de luz, bosque en los bordes y niebla espesa en el río.",
+        "Pistas mejor escondidas, y textos que solo describen lo que ves: las conclusiones son tuyas."
+      ]
+    },
+    {
+      "version": "v0.1.3",
+      "fecha": "",
+      "titulo": "No estás solo",
+      "resumen": "Llega el modo en línea para dos PCs.",
+      "cambios": [
+        "Uno crea la partida y pasa un código; el otro se une.",
+        "El león caza a cualquiera de los dos.",
+        "Pistas, balas, vendas y armarios rotos se comparten.",
+        "Más difícil: el mundo no se pausa y el león ronda más seguido.",
+        "Tecla Q para marcarle «¡aquí!» a tu compañero."
+      ]
+    },
+    {
+      "version": "v0.1.2",
+      "fecha": "",
+      "titulo": "Ahora duele",
+      "resumen": "Barra de vida, miedo en las manos y un león que se mueve como animal.",
+      "cambios": [
+        "Barra de vida: el león hiere, retrocede… y vuelve. Las vendas curan.",
+        "La dificultad sube con cada pista que encuentras.",
+        "Trepar cuesta: cajas desde el suelo, techos solo saltando y agarrándote. Cansa.",
+        "El león camina, acecha agazapado y galopa como un animal de verdad. Se le oyen las pisadas y la respiración.",
+        "Te tiemblan las manos cuando tienes miedo.",
+        "Charcos que salpican, paredes sólidas e interfaz nueva."
+      ]
+    },
+    {
+      "version": "v0.1.1",
+      "fecha": "",
+      "titulo": "La noche se ve distinta",
+      "resumen": "Gran salto en gráficos, pensado para que corra bien en PCs humildes.",
+      "cambios": [
+        "Cielo con estrellas y luna, bosque lejano y niebla baja.",
+        "Texturas con relieve, haz de linterna y sombras de luna en calidad ALTA.",
+        "Filtro de cine: color, grano, viñeta y una distorsión que crece con el miedo.",
+        "El pueblo gana porches, ventanas, letreros, una carreta, faroles, pasto y piedras.",
+        "León nuevo: melena desgreñada, colmillos y ojos que brillan con tu linterna.",
+        "Tecla G para cambiar la calidad gráfica."
+      ]
+    },
+    {
+      "version": "v0.1",
+      "fecha": "",
+      "titulo": "La primera noche",
+      "resumen": "Así empezó todo.",
+      "cambios": [
+        "Intro, el primer pueblo y 7 pistas para investigar.",
+        "Armario para esconderte aguantando la respiración.",
+        "Un rifle viejo con muy pocas balas.",
+        "Varios finales, según lo que creas."
+      ]
+    }
+  ],
+  "proximamente": [
+    "Lo que hay al otro lado del río.",
+    "Más pistas y finales completos.",
+    "Guardar la partida.",
+    "Voces y mejor arte.",
+    "Más arte en 3D, sin dejar de correr en PCs humildes."
+  ]
+}
